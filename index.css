@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(5, 5, 201);
+  color: #fff;
+  padding-left: 50px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.span {
+  padding-right: 10px;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 30px 0 30px;
+}
+.herosection {
+  min-height: 70vh;
+  background: rgb(5, 5, 201);
+}
+.hero1 {
+  background: rgb(5, 5, 201);
+  padding: 20px 0px 10px 0px;
+  font-size: x-large;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 50px;
+}
+
+.plan {
+  color: rgb(142, 142, 242);
+}
+.formtext {
+  margin-bottom: 10px;
+}
+.formpart {
+  display: flex;
+  justify-content: space-between;
+}
+.Fname {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.Fname2 {
+  padding: 10px;
+  width: 100%;
+}
+
+.Btn1 {
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px 5px 5px 5px;
+  width: 250px;
+  color: white;
+  background-color: rgb(5, 5, 201);
+}
+
+.Btn2 {
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px 5px 5px 5px;
+  width: 250px;
+  color: rgb(5, 5, 201);
+  border: 1px solid rgb(5, 5, 201);
+}
+
+.get_started {
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  height: 300px;
+  width: 380px;
+  background-color: white;
+  right: 100px;
+  margin-top: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.custom-shape-divider-bottom-1676900677 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1676900677 svg {
+  position: relative;
+  display: block;
+  width: calc(149% + 1.3px);
+  height: 329px;
+}
+
+.custom-shape-divider-bottom-1676900677 .shape-fill {
+  fill: #fff;
+}
+.footer1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+  height: 100px;
+}
+.footer2 {
+  padding: 20px;
+  display: flex;
+}
+.serviceplanitem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+  gap: 25px;
+}
+.Phand {
+  height: 48px;
+  width: 48px;
+}
+.handDocument {
+  height: 48px;
+  width: 48px;
+}
+.esusu {
+  height: 48px;
+  width: 48px;
+}
+.footer3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn3 {
+  font-size: 24px;
+  width: 300px;
+  color: white;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgb(5, 5, 201);
+}
+@media screen and (max-width: 1180px) {
+  .hero1 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 1047px) {
+  .get_started {
+    right: 20px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .get_started {
+    padding: 20px;
+    text-align: center;
+    position: unset;
+    height: 300px;
+    width: 380px;
+    margin-top: 0;
+    margin: 70px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .container {
+    display: block;
+  }
+  .herosection {
+    min-height: 40vh;
+  }
+  .custom-shape-divider-bottom-1676900677 {
+    display: none;
+  }
+  .footer2 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hide_link {
+    display: none;
+  }
+}
